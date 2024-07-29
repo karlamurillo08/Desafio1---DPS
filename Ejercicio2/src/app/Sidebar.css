@@ -1,0 +1,163 @@
+.container-cart-products {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  padding: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Estilos adicionales para el carrito y los productos */
+.cart-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-style: groove;
+}
+
+.info-cart-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+    gap: 15px; 
+    align-items: center;
+    grid-template-columns: flex;
+
+    
+    
+
+  
+        
+
+}
+
+
+
+
+  
+
+
+.icon-close {
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn-clear-all {
+  width: 80%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+
+  
+}
+
+.cart-empty {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size:15px;
+  text-align: right;
+  margin-left: 5px;
+  
+}
+
+.quantity-controls button {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  
+
+  
+
+
+}
+
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container-cart-products {
+    width: 50%;
+  }
+
+  .cart-product {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: small;
+  }
+
+  .info-cart-product {
+    margin-bottom: 10px;
+    font-size: small;
+  }
+
+  .cart-total {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: small;
+  }
+
+  .btn-clear-all {
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .cart-empty {
+    font-size: small;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-cart-products {
+    padding: 20px;
+  }
+
+  .cart-product {
+    margin-bottom: 5px;
+    
+  }
+
+  .icon.close{
+    padding: 5px;
+  }
+
+  .cart-total {
+    margin-top: 10px;
+    font-size: small;
+  }
+
+  .btn-clear-all {
+    padding: 12px;
+    
+  }
+
+  .cart-empty {
+    font-size: 14px;
+    margin-top: 30px;
+  }
+}
+
