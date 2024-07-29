@@ -1,0 +1,162 @@
+/* Form.module.css */
+
+.body{
+  background-color: rgb(244, 179, 105);
+  align-content: center;
+  align-items: center;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+
+.Title{
+  margin-top: 60px;
+  margin-left: 250px;
+  
+}
+.container{
+  
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 50px;
+  align-content: center;
+  border-color:black ;
+  
+}
+
+.container select{
+  width: 400px;
+  margin-right: 5px;
+  height: 30px;
+  
+}
+
+.container option{
+  justify-content:space-between;
+}
+.container button{
+  width: 150px;
+  height: 30px;
+}
+
+.list{
+  border-color: black;
+  margin-left: 150px;
+  margin-right: 200px;
+ 
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+
+}
+.itemInfo{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  align-content: center;
+  margin-top: 5px;
+  
+  
+  
+
+  
+}
+
+.item{
+  display: grid;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  
+
+}
+
+.itemPrice{
+  border-color: black;
+  border-bottom-style: groove;
+  width: 800px;
+  
+}
+.controler{
+  text-align: right;
+  margin-right: 10px;
+  height: 2px;
+  
+}
+
+.itemQuantity{
+  margin: 5px;
+}
+.buttonRemove{
+  width: 20px;
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  
+}
+
+.total{
+  
+  
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: repeat(3,1fr);
+  background-color: rgb(244, 179, 105);
+  margin-left: 150px;
+  margin-right: 200px;
+
+}
+
+.total2{
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+.h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+  
+  
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 350px;
+  
+  
+
+  
+}
+
+.footercontent {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
+
+.footer p {
+  margin: 0;
+}
+
+.socialicons {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.socialicons a img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
